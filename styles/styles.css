@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 1. nav rule: background-color and padding */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+/* 2. nav a rule: color, padding, display: block */
+nav a {
+    color: white;
+    padding: 0.5rem;
+    display: block;
+}
+
+/* 3. main rule: max-width */
+main {
+    max-width: 840px;
+}
+
+/* 4. h1 rule: color */
+h1 {
+    color: #333;
+}
+
+/* 5. main img rule: width, height, border, padding, box-shadow */
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 6. aside rule: width, margin, border, padding, background-color, color */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+/* 7. aside img rule: width: 200px, height: auto */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* 8. p rule: padding: 0 */
+p {
+    padding: 0;
+}
+
+/* 9. footer rule: margin-top, border-top, text-align: center */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
